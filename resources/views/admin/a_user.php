@@ -269,6 +269,7 @@ li a:hover:not(.active) {
 while($row = $result2->fetch_assoc()) 
 {
   echo "<tr><td>".$row["id"]."</td><td>".$row["name"]."</td> <td>".$row["email"]."</td> <td> ".$row["role_id"]."</td></tr>";
+
 }
 echo "</table>";
       }
